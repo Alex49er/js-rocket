@@ -1,3 +1,17 @@
+
+// hey this is an invisible comment.
+let currentClassName = document.getElementById('cool').className = 'cool red';
+
+if (currentClassName == 'cool'){
+    document.getElementById('cool').className = 'cool red';
+} else{
+    document.getElementById('cool').className = 'cool';
+}
+
+let doCoolStuff = function(){
+    document.getElementById('cool').className = 'cool red';
+}
+
 let sayMyName = function(name){
     alert('My name is: '+name);
 }
