@@ -1,3 +1,6 @@
+setTimeout (function() {
+    location.href = 'rocket.html';
+}, 2000);
 
 // hey this is an invisible comment.
 let currentClassName = document.getElementById('cool').className = 'cool red';
